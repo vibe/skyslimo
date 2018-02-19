@@ -1,0 +1,5 @@
+{
+  "name": "skyslimo.com",
+  "restart": "on-failure:2",
+  "domain": "skyslimo.com"
+}
