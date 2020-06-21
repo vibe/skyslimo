@@ -9,7 +9,8 @@
     "build": "next build",
     "serve:dev": "nodemon --watch app --watch bootstrap --watch config --watch .env -x node server.js",
     "serve": "node server.js",
-    "lint": "standard"
+    "lint": "standard",
+    "next": "next start"
   },
   "author": "",
   "license": "MIT",

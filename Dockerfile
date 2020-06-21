@@ -11,10 +11,10 @@ WORKDIR /usr/src/app
 COPY package.json /usr/src/app/
 COPY yarn.lock /usr/src/app/
 RUN yarn
-
+RUN yarn build
 # copy app itself
 COPY . /usr/src/app
 
-EXPOSE 80
+EXPOSE 3000
 
-CMD ["npm", "start"]
+CMD ["npm", "next"]
